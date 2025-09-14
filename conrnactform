@@ -1,1 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mini Page with Table and Contact Form</title>
+</head>
+<body background-color="beige">
+<body>
+<h2>Avraigne Ernest I. Martinez</h2>
+<img src="24-10339-812.jpg" height="300" alt="My Photo">
+<h2>About Me</h2>
+  <table border="1">
+  <tr>
+    <th>Introduction</th>
+  </tr>
+  <tr>
+    <td>I am a student who likes to lift weights.</td>
+  </tr>
+</table>
+<h2>My Interests</h2>
+<ul>
+<li>Lifting Weights</li>
+<li>Reading Comics</li>
+<li>Playing Games</li>
+</ul>
+<h2>Links</h2>
+<p>
+<a href="mailto:avraignemartinez15@gmail.com"  target="_blank" >Gmail</a>
+</p>
+<h2>Contact Me</h2>
 
+<form action="mailto:avraignemartinez15@gmail.com" method="POST">
+<label>Name: <input type="text" name="name" required></label><br><br>
+<label>Email: <input type="email" name="email" required></label><br><br>
+<label>Message:<br><textarea name="message" rows="5" cols="30"
+required></textarea></label><br><br>
+<button type="submit">Send</button>
+</form>
+</body>
+</html>
